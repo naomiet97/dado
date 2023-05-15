@@ -1,3 +1,37 @@
 body {
-  background: #223;
+  background: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 200px;
+ 
+}
+
+#numero-dado {
+  color: rgb(240 119 147);
+}
+
+.sup {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  background-color: #ffc0cb;
+  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.btn-roll {
+  background-color: #d16a8c;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
 }
